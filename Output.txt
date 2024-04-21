@@ -1,0 +1,122 @@
+PS C:\TURBOC3\BIN> cd "c:\Users\vachh\Downloads\" ; if ($?) { gcc LINKLIST.C -o LINKLIST } ; if ($?) { .\LINKLIST }
+Code by utsav vachhani(uv)it's program of singly Linklist.
+Enter the number of element you went to enter in Linklist:10
+Enter the INFO:36
+node inserted 11933208=[36,0]
+Enter the INFO:12
+node inserted 11933224=[12,0]
+Enter the INFO:95
+node inserted 11933096=[95,0]
+Enter the INFO:23
+node inserted 11933128=[23,0]
+Enter the INFO:45
+node inserted 11940856=[45,0]
+Enter the INFO:33
+node inserted 11940888=[33,0]
+Enter the INFO:125
+node inserted 11940920=[125,0]
+Enter the INFO:334
+node inserted 11940952=[334,0]
+Enter the INFO:23
+node inserted 11940984=[23,0]
+Enter the INFO:166
+node inserted 11928752=[166,0]
+Element before opertion:11933208=[36,11933224]
+11933224=[12,11933096]
+11933096=[95,11933128]
+11933128=[23,11940856]
+11940856=[45,11940888]
+11940888=[33,11940920]
+11940920=[125,11940952]
+11940952=[334,11940984]
+11940984=[23,11928752]
+11928752=[166,0]
+-------------------------------------------------------------------------------
+1. insert at First.
+2. insert at last.
+3. insert at after given node.
+4. delet at First
+5. delet at Last
+6. delet at before specifide node.
+7. delet at after specifide node.
+8. show the linklist
+9. change value of node INFO.
+10. exite
+
+Enter choice:1
+Enter the INFO:99
+node inserted 11953600=[99,11933208]
+
+Enter choice:2
+Enter the INFO:33
+node inserted 11953552=[33,0]
+
+Enter choice:3
+
+11953600
+11933208
+11933224
+11933096
+11933128
+11940856
+11940888
+11940920
+11940952
+11940984
+11928752
+11953552
+Enter the node number where you enter the node:11928752
+Enter the INFO:36
+node id inserted 11953232=[36,11953552]
+
+Enter choice:4
+remove node is 11953600=[99,11933208]
+
+Enter choice:5
+deleted node is 11953552=[33,0]
+-------------------------------------------------------------------------------
+1. insert at First.
+2. insert at last.
+3. insert at after given node.
+4. delet at First
+5. delet at Last
+6. delet at before specifide node.
+7. delet at after specifide node.
+8. show the linklist
+9. change value of node INFO.
+10. exite
+
+Enter choice:6
+here you have total node is 11
+Enter the index of node which after you wont to delet node:6
+mord is deleted 11940856=[45,11940888]
+
+Enter choice:7
+here you have total node is 10
+Enter the index of node which after you wont to delet node:4
+mord is deleted 11940888=[33,11940920]
+
+Enter choice:8
+11933208=[36,11933224]
+11933224=[12,11933096]
+11933096=[95,11933128]
+11933128=[23,11940920]
+11940920=[125,11940952]
+11940952=[334,11940984]
+11940984=[23,11928752]
+11928752=[166,11953232]
+11953232=[36,0]
+
+Enter choice:9
+11933208=[36,11933224]
+11933224=[12,11933096]
+11933096=[95,11933128]
+11933128=[23,11940920]
+11940920=[125,11940952]
+11940952=[334,11940984]
+11940984=[23,11928752]
+11928752=[166,11953232]
+11953232=[36,0]Enter the node of which you Went to chang INFO:23
+Your given node is not founded!!!
+
+Enter choice:10
